@@ -103,10 +103,8 @@ export default Vue.component(name, getVueOptions(name));
     }
 
     #resume-header {
-        color: white;
+        color: black;
         height: 136px;
-        background-color: purple;
-        box-shadow: inset 0px 0px 200px #301030;
         padding: 40px 100px 25px;
 
         #header-left {
@@ -115,13 +113,13 @@ export default Vue.component(name, getVueOptions(name));
             float: left;
             h1 {
                 font-size:56px;
-                color:white;
+                color:black;
                 text-transform:uppercase;
                 line-height:56px;
             }
             h2 {
                 font-size:22px;
-                color:white;
+                color:black;
             }
             #info-flex {
                 display:flex;
